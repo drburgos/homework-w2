@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+header {
+    display:flex;
+}
+
+aside {
+    background-color: lightyellow;
+}
+
+h1 {
+    background-color: greenyellow;
+    height: 50px;
+}
+
+h2 {
+    background-color: gold;
+}
+
+h3 {
+    background-color: grey;
+    width: 200px;
+}
+
+h4 {
+    background-color: indianred;
+    width: 80px;
+    height: 40px;
+}
+
+.box {
+    border: 2px solid black;
+}
+
+nav ul li{
+   list-style-type: none;
+   display:inline;
+}
+
+div ul li{
+    list-style-type: none;
+    display:inline;
+}
+
+.ContainerAboutMe {
+    display:flex;
+}
+
+.ContainerWork {
+    display:flex;
+}
+
+.ContainerContactMe {
+    display:flex;
+}
+
+.flex-container {
+    display: flex;
+    background-color: lightskyblue;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.flex-container .box {
+    background-color: lime;
+    width: 375px;
+}
+
+#surf-report {
+    background-color: mediumslateblue;
+    width:800px;
+    height:250px;
+}
+
+#TextAboutMe {
+    background-color: olive;
+    font-size: 9px;
+}
