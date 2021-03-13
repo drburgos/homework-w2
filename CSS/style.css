@@ -4,37 +4,39 @@ body {
     line-height: 1.5;
 }
 
-
 header {
     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkslategray;
 }
 
-aside {
-    background-color: lightyellow;
+a {
+    color: white;
 }
 
 h1 {
-    background-color: greenyellow;
+    background-color:none;
     height: 50px;
-}
-
-h2 {
-    background-color: gold;
+    color:white;
+    padding: 0 0 0 20px;
 }
 
 h3 {
-    background-color: grey;
+    padding: 15px 0 0 20px;
+    font-size: 20px;
     width: 200px;
 }
 
-h4 {
-    background-color: indianred;
-    width: 80px;
-    height: 40px;
+p {
+    font-size: 25px;
 }
 
+ul {
+    padding: 20px 20px 0px 20px;
+}
 .box {
-    border: 2px solid black;
+    border: 2px solid white;
 }
 
 nav ul li{
@@ -44,14 +46,10 @@ nav ul li{
 
 div ul li{
     list-style-type: none;
-    display:inline;
+    display:inline
 }
 
-.ContainerAboutMe {
-    display:flex;
-}
-
-.ContainerWork {
+div ul{
     display:flex;
 }
 
@@ -59,16 +57,26 @@ div ul li{
     display:flex;
 }
 
+.ContainerContactMe ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ContainerContactMe ul li{
+    font-size: 20px;
+    padding: 10px 30px 20px 30px;
+}
+
 .flex-container {
     display: flex;
-    background-color: lightskyblue;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-evenly;
 }
 
 .flex-container .box {
-    background-color: lime;
     width: 375px;
 }
 
@@ -78,7 +86,6 @@ div ul li{
     height:250px;
 }
 
-#TextAboutMe {
-    background-color: olive;
+#AboutMe {
     font-size: 9px;
 }
